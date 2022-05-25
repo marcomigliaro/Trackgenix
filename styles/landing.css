@@ -1,0 +1,182 @@
+main {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+section {
+    margin: 30px 20px 0 20px;
+    padding-bottom: 50px;
+    border-bottom: 3px #AACE9B solid;
+}
+/* Section 1 */
+
+.container-app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container-app p {
+    padding-bottom: 20px;
+    font-size: 15px;
+    color: #958888;
+    line-height: 20px;
+}
+
+/* Section 2 */
+
+.container-functionalities div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 180px;
+    }
+
+.container-functionalities ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-basis: 90%;
+    margin-right: 20px;
+}
+
+.container-functionalities li {
+    padding: 5px;
+    border: 1px solid #373867;
+    border-radius: 5px; 
+    font-size: 20px;
+    color: #373867;
+}
+
+.container-functionalities span {
+    padding: 3px 2px 15px 2px;
+    font-weight: bold;
+    color: #34636E;
+}
+
+/* Section 3 */
+
+.container-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.column-article {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.article h4 {
+    margin-bottom: 15px;
+}
+
+.article p {
+    margin-bottom: 10px;
+    color: #958888;
+}
+
+/* Section 4 */
+
+.my-form {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.column1-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-name-email {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.form-name-email label {
+    padding: 10px;
+}
+
+.form-name-email input[type=text] , .form-name-email input[type=email] , .column2-form textarea {
+    width: 200px;
+    padding: 8px;
+}
+
+.check {
+    margin: 8px 0;
+}
+
+.column2-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.column2-form label {
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.buttons input {
+    padding: 5px 15px;
+}
+
+/* Section 5 */
+
+.container-history {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.column-history {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.column-history p{
+    order: -1;
+    margin: 15px 0;
+    color: #958888;
+}
+
+.column-history img {
+    align-self: center;
+}
+
+/* Section 6 */
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+
+.item-list {
+    margin-bottom: 15px;
+}
+
+.item-list h4{
+    margin-bottom: 8px;
+    color: black;
+}
+
+.item-list li {
+    color: #958888;
+    list-style: decimal
+}

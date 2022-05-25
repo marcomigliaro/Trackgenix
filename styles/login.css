@@ -1,0 +1,98 @@
+main {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin: 40px 0;
+}
+
+.log-in-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 400px;
+    background-color: #DCDADA;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(50, 50, 71, 0.06);
+}
+
+.log-in-form h3 {
+    margin-top: 20px;
+    color: #373867;
+    text-shadow: 0px 9.45455px 9.45455px rgba(0, 0, 0, 0.25);
+}
+
+.log-in-form input[type=text] , .log-in-form input[type=password] {
+    height: 25px;
+    background-color: transparent;
+    border: hidden;
+    border-bottom: 1px solid;
+}
+
+.log-in-form p {
+    visibility: hidden;
+    padding-top: 2px;
+    font-size: 12px;
+    color: #d72d0f;
+}
+
+.log-in-form button {
+    padding: 5px 60px;
+    background-color: #AACE9B;
+    border: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.log-in-form a {
+    text-decoration: none;
+    color: black;
+}
+
+.log-in-form a:hover {
+    color: #AACE9B;
+}
+
+/* Modal styling*/
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    line-height : 25px;
+}
+
+.modal-content h4{
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+  
+.close {
+    float: right;
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,82 @@
+aside {
+    display: none;
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: #DCDADA; 
+}
+
+aside a:hover {
+    color: #AACE9B;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 87px;
+    background-color: #EBEBEB;
+}
+
+.search label {
+    align-self: flex-start;
+    padding-left: 10px;
+}
+
+.search input {
+    padding: 5px;
+    border: 1px solid #373867;
+    border-radius: 5px;
+}
+
+.search img {
+    margin: 3px 0 0 10px;
+}
+
+.menu {
+    margin: 15px 30px 0 10px;
+}
+
+.menu label {
+    text-decoration: underline 3px;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration-color: #AACE9B;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.menu li {
+    padding-bottom: 4px;
+    border-bottom: 1px solid #AACE9B;
+}
+
+.menu a , .mail-address a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-inf {
+    margin-top: 35px;
+}
+
+.contact-inf p {
+    margin-top: 15px;
+    color: #958888;
+}
+
+.mail-address {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0 8px 0;
+    border-bottom: 1px solid #AACE9B;
+    font-size: 13px;
+}

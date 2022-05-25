@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trackgenix - Sign up</title>
+        <link rel="icon" type="image/x-icon" href="../assests/img/time-monochromatic.png">
+        <link rel="stylesheet" href="../styles/reset.css">
+        <link rel="stylesheet" href="../styles/footer.css">
+        <link rel="stylesheet" href="../styles/header.css">
+        <link rel="stylesheet" href="../styles/sign-up.css">
+        <link rel="stylesheet" href="../styles/sidebar.css">
+        <link rel="stylesheet" href="../styles/styles.css">
+        <script src="../javascript/sign-up.js"></script>
+    </head>
+    <body>
+        <aside>
+            <form class="search">
+                <label for="search">
+                    Search:<img src="../assests/icons/search-alt-2-regular-24.png" alt="magnifying glass"
+                    width="10">
+                </label>
+                <input id="search" type="search" name="search" placeholder="Search">
+            </form>
+            <div class="menu">
+                <label for="menu"> Menu </label>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="./index.html" title="Go home">Home</a>
+                        </li>
+                        <li>
+                            <a href="./sign-up.html" title="Sign up">Sign Up</a>
+                        </li>
+                        <li>
+                            <a href="./login.html" title="Log in">Log In</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="contact-inf">
+                    <label for="contact">Contact information</label>
+                    <p>
+                        Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, 
+                        ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante 
+                        interdum. Sed nulla amet lorem feugiat tempus aliquam.
+                    </p>
+                </div>
+                <div class="mail-address">
+                    <img src="../assests/icons/envelope-regular-24.png" alt="envelope icon">
+                    <a href="mailto:information@untitled.tld" title="Send email">information@untitled.tld</a>
+                </div>
+                <div class="mail-address">
+                    <img src="../assests/icons/bx-home-alt.svg" alt="address icon">
+                    <p>1234 Somewhere Road #8254 Nashville, TN 00000-0000</p>
+                </div>
+            </div>
+        </aside>
+        <header>
+            <h1>Trackgenix</h1>
+            <img src="../assests/img/rr-icon.jpeg" alt="RR icon" width="76">
+        </header>
+        <img class="log-menu" src="../assests/icons/hamburguer.jpg" alt="menu" width="60px">
+        <main>
+            <form class="sign-up-form">
+                <h3>Sign up</h3>
+                <div class="inputs-form">
+                    <div class="column1-form">
+                        <div>
+                            <input id="name" type="text" placeholder="Name">
+                            <p>Invalid name</p>
+                        </div>
+                        <div>
+                            <input id="last-name" type="text" placeholder="Last name">
+                            <p>Invalid last name</p>
+                        </div>
+                        <div>
+                            <input id="dni" type="number" placeholder="DNI">
+                            <p>Invalid dni</p>
+                        </div>
+                        <div>
+                            <input id="date-of-birth" type="date" placeholder="Date of birth">
+                            <p>Invalid date of birth</p>
+                        </div>
+                        <div>
+                            <input id="phone-number" type="number" placeholder="Phone number">
+                            <p>Invalid phone number</p>
+                        </div>
+                    </div>
+                    <div class="column2-form">
+                        <div>
+                            <input id="address" type="text" placeholder="Address">
+                            <p>Invalid address</p>
+                        </div>
+                        <div>
+                            <input id="location" type="text" placeholder="Location">
+                            <p>Invalid location</p>
+                        </div>
+                        <div>
+                            <input id="postal-code" type="number" placeholder="Postal code">
+                            <p>Invalid postal code</p>
+                        </div>
+                        <div>
+                            <input id="email" type="text" placeholder="Email">
+                            <p>Invalid email</p>
+                        </div>
+                        <div>
+                            <input id="password" type="password" placeholder="Password">
+                            <p>Invalid password.</p>
+                        </div>
+                        <div>
+                            <input id="repeat-password" type="password" placeholder="Repeat password">
+                            <p>Invalid password</p>
+                        </div>
+                    </div>
+                </div>
+                <button>Create</button>
+                <div>
+                <label>Already have an account?</label>
+                <a href="./login.html" title="Log in">Log in</a>
+                </div>
+            </form>
+            <div id="my-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3>Information</h3>
+                    <h4></h4>
+                    <div>
+                        <label>Name:</label>
+                        <label id="name-value"></label>
+                    </div>
+                    <div>
+                        <label>Last name:</label>
+                        <label id="last-name-value"></label>
+                    </div>
+                    <div>
+                        <label>DNI:</label>
+                        <label id="dni-value"></label>
+                    </div>
+                    <div>
+                        <label>Date of birth:</label>
+                        <label id="date-of-birth-value"></label>
+                    </div>
+                    <div>
+                        <label>Phone number:</label>
+                        <label id="phone-number-value"></label>
+                    </div>
+                    <div>
+                        <label>Address:</label>
+                        <label id="address-value"></label>
+                    </div>
+                    <div>
+                        <label>Location:</label>
+                        <label id="location-value"></label>
+                    </div>
+                    <div>
+                        <label>Postal code:</label>
+                        <label id="postal-code-value"></label>
+                    </div>
+                    <div>
+                        <label>Email:</label>
+                        <label id="email-value"></label>
+                    </div>
+                    <div>
+                        <label>Password:</label>
+                        <label id="password-value"></label>
+                    </div>
+                    <div>
+                        <label>Repeat password:</label>
+                        <label id="repeat-password-value"></label>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <a href="https://www.instagram.com/" target="_blank">
+                <img src="../assests/icons/bxl-instagram.svg" alt="instagram icon" width="30" height="30">
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                <img src="../assests/icons/bxl-twitter.svg" alt="twitter icon" width="30" height="30">
+                </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                <img src="../assests/icons/bxl-facebook.svg" alt="facebook icon" width="30" height="30">
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank">
+                <img src="../assests/icons/bxl-linkedin-square.svg" alt="linkedin icon" width="30" height="30">
+                </a>
+                <a href="https://github.com/" target="_blank">
+                <img src="../assests/icons/bxl-github.svg" alt="github icon" width="30" height="30">
+                </a>
+            </div>
+            <img src="../assests/img/rr-icon.jpeg" alt="RR icon" width="80">
+            <p> Rosario, Argentina </p>
+            <p> Copyright &copy; 2022 Marco Migliaro. All rights reserved. </p>
+        </footer>
+    </body>
+</html>
